@@ -1,0 +1,74 @@
+/* general styles */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+/*    tylko w celu sprawdzenia efektu - do usuniecia */
+    background-color: antiquewhite;
+}
+span {
+    font-weight: 300;
+    color: #1ac056;
+}
+/* general styles END*/
+
+/* Main menu styles*/
+#main-menu {
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+#main-menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+#main-menu .menu-item {
+    display: inline-block;
+    padding: 25px;
+}
+#main-menu .menu-item a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+#main-menu .menu-item a:hover {
+    color: #291f1a;
+}
+/* Main menu styles END*/
+/* Main header styles */
+#main-header {
+    height: 100vh;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+#main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#main-header .header-caption h1,
+#main-header .header-caption h2 {
+    font-weight: 100;
+}
+#main-header .header-caption h1 {
+    font-size: 3em;
+}
+#main-header .header-caption h2 {
+    font-size: 2em;
+}
+
+
+/* Main header styles END*/
