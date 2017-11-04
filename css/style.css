@@ -22,7 +22,7 @@ p {
     font-weight: 300;
     line-height: 1.5;
 }
-section {
+section, footer {
     padding: 80px 100px;
 }
 .col-1-2 {
@@ -199,7 +199,45 @@ section {
 
 /* Porfolio styles END */
 
+/* Contact styles */
+#contact {
+    background-color: #213b50;
+    color: #fff;
+    overflow: hidden;
+}
+#contact h2 {
+    text-align: left;
+}
+#contact address {
+    font-style: normal;
+    line-height: 1.5;
+}
+#contact address a {
+    color: #1ac056;
+}
+#contact .social-icons {
+    margin-top: 40px;
+}
+#contact .social-icon {
+    border: 1px solid #fff;
+    font-size: 2em;
+    color: #fff;
+    height:50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
 
 
+#contact .social-icon:hover {
+    color: #213b50;
+    background-color: #fff;
+    
+}
+
+/* Contact styles END */
 
 
