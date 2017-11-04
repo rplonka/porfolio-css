@@ -41,7 +41,10 @@ section, footer {
     z-index: 100;
     width: 100%;
 }
-
+#main-menu label[for="drop-menu"],
+#main-menu #drop-menu {
+    display: none;
+}
 #main-menu ul {
     margin: 0;
     padding: 0;
@@ -172,6 +175,7 @@ section, footer {
     color: #fff;
     text-align: center;
     position: absolute;
+    width: 100%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -263,10 +267,10 @@ section, footer {
 
 /* Contact styles END */
 
-/*copyright*/
+/* Copyright */
 .copyright {
     background-color: #142634;
     color: #fff;
     padding: 10px 100px;
 }
-
+/* Copyright END*/

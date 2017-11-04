@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+    .col-1-2 {
+        width: 100%;
+    }
+    #main-menu label[for="drop-menu"] {
+        display: block;
+        text-align: right;
+        color: #1ac056;
+        font-size: 1.5em;
+        padding: 25px;
+    }
+    #main-menu #drop-menu:checked + ul {
+        display: block;
+    }
+    #main-menu ul {
+        display: none;
+    }
+    
+    
+    #main-menu .menu-item {
+        display: block;
+    }
+    #portfolio .portfolio-item {
+        width: 100%;
+    }
+    #contact form {
+        margin-top: 30px;
+    }
+    #contact,
+    #contact h2 {
+        text-align: center;
+    }
+    #contact .social-icon {
+        margin: 0 10px; 
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #portfolio .portfolio-item {
+    width: 50%;
+   }
+    #portfolio .portfolio-item:last-child {
+     width: 100%;
+    }
+}
