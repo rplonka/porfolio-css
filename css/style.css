@@ -108,6 +108,7 @@ section {
 #about {
     background-color: #f9fcfe;
     overflow: hidden;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
   
 }
 #about figure {
@@ -122,3 +123,16 @@ section {
 }
 /* About styles END*/
 
+/* Skills styles*/
+#skills {
+    text-align: center;
+}
+#skills .skills-item {
+    display: inline-block;
+}
+#skills .skills-item figcaption {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+/* Skills styles END*/
