@@ -149,6 +149,44 @@ section {
     background-position: center;
     background-size: cover;
 }
+#portfolio .portfolio-item-mask {
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.7);
+    position: relative;
+    opacity: 0;
+}
+#portfolio .portfolio-item-mask:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item-border {
+    border: 1px solid #fff;
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#portfolio .portfolio-item-content {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#portfolio .portfolio-item-content a {
+    color: #fff;
+    font-size: 2em;
+    transition: all 0.3s;
+}
+#portfolio .portfolio-item-content a:hover {
+    color: #1ac056;
+}
+
+
+
 #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg)
 }
@@ -158,9 +196,6 @@ section {
 #portfolio-item-3 {
     background-image: url(../img/portfolio4.jpg)
 }
-
-
-
 
 /* Porfolio styles END */
 
