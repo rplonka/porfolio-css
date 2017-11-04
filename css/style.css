@@ -235,9 +235,38 @@ section, footer {
 #contact .social-icon:hover {
     color: #213b50;
     background-color: #fff;
-    
+}
+
+#contact input:not([type="submit"]),
+#contact textarea {
+    display: block;
+    width: 100%;
+    background-color: #456681;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+}
+#contact input[type="submit"] {
+    background-color: #1ac056;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    float: right;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover {
+    cursor: pointer;
+    color: #1ac056;
+    background-color: #fff; 
 }
 
 /* Contact styles END */
 
+/*copyright*/
+.copyright {
+    background-color: #142634;
+    color: #fff;
+    padding: 10px 100px;
+}
 
